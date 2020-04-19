@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sql_to_clickhouse"
+version = "0.1.0"
+description = ""
+authors = ["Aleksandr Kurkin <sqweptic@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+jupyter = "^1.0.0"
+sqlalchemy = "^1.3.16"
+sqlalchemy-clickhouse = "^0.1.5"
+ipython-sql = "^0.3.9"
+ipykernel = "^5.2.1"
+
+
+[build-system]
+requires = ["poetry=0.12"]
+build-backend = "poetry.masonry.api"
