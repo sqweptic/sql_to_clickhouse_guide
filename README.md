@@ -1,50 +1,20 @@
-SQL syntax queries to clickhouse systax queries guide
+## Guide to converting SQL queries to clickhouse systax queries (which pseudo-sql)
 
-Example tables description:
+Clickhouse queries syntax is quite unusual compared to regular sql. (sql-92 / sql-03 and so on).
+So here is the guide for.
 
-Users
-id
-firstname
-lastname
-nickname
+#### Datasets source
+1. bank accounts dataset - [Kaggle](https://www.kaggle.com/apoorvwatsky/bank-transaction-data)
 
-
-Notifications
-id
-user_id
-email
-push_android
-push_ios
-sms
-
-
-Transactions
-id
-user_id
-transaction_time
-transaction_date
-revenue
-currency_id
-currency_ratio
-is_acceptable
-refund_time
-refund_date
-
-
-Visits
-visit_id
-visit_time
-visit_date
-user_id
-page_name
-
-
-Calendar
-dt
-
-Try:
-Easiest way to try translate some sql query to clickhouse query.
+#### Try
+Easiest way to try examples from here is follow: 
 1. Use docker classic sql syntax db (presto for example) https://hub.docker.com/r/prestosql/presto
 2. Use docker clickhouse https://hub.docker.com/r/yandex/clickhouse-server
-3. Use your favourite db connetion utility (Dbeaver for example)
+3. Use your favourite database conneting tool (Dbeaver for example)
 4. Setup connection to local presto and clickhouse servers
+5. Insert data from datasets folder to tables
+6. Run commands to install reqired packages
+install python
+curl https://pyenv.run | bash
+pip install poetry
+7. Go to guide to try
