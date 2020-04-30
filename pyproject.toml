@@ -12,6 +12,7 @@ jupyter = "1.0.0"
 ipython-sql = "0.3.9"
 ipykernel = "5.2.1"
 pandas = "1.0.3"
+PyHive = "0.6.2"
 
 [tool.poetry.dev-dependencies]
 
