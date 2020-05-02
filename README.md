@@ -1,3 +1,10 @@
+# Checking csv dataset
+
+- [Checking csv dataset](#checking-csv-dataset)
+  - [Guide to converting SQL queries to clickhouse systax queries (which pseudo-sql)](#guide-to-converting-sql-queries-to-clickhouse-systax-queries-which-pseudo-sql)
+      - [Used datasets source](#used-datasets-source)
+      - [Try by yourself](#try-by-yourself)
+
 ## Guide to converting SQL queries to clickhouse systax queries (which pseudo-sql)
 
 Clickhouse queries syntax is quite unusual compared to common sql (sql-92 / sql-03 and so on).
